@@ -1,16 +1,13 @@
 name: UdaConnect Application Build
 
-# on:
-#   pull_request:
-#     branches:
-#       - dev
 on:
-  push:
-    branches: [main]
+  pull_request:
+    branches:
+      - dev
 
 jobs:
   build_and_push:
-    # if: startsWith(github.head_ref, 'app/')
+    if: startsWith(github.head_ref, 'app/')
     runs-on: ubuntu-latest
     steps:
       - name: Clone github repository
