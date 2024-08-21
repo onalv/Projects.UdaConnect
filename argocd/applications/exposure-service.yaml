@@ -10,6 +10,6 @@ spec:
   project: default
   source:
     path: manifests/exposure-service
-    repoURL: git@github.com:onalv/Projects.UdaConnect.git
+    repoURL: https://github.com/onalv/Projects.UdaConnect.git
     targetRevision: HEAD
   syncPolicy: {}

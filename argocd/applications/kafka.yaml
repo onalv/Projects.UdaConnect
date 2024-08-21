@@ -13,6 +13,6 @@ spec:
       valueFiles:
         - values.yaml
     path: charts/kafka
-    repoURL: git@github.com:onalv/Projects.UdaConnect.git
+    repoURL: https://github.com/onalv/Projects.UdaConnect.git
     targetRevision: HEAD
   syncPolicy: {}
