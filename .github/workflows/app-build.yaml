@@ -1,9 +1,8 @@
 name: UdaConnect Application Build
 
 on:
-  pull_request:
-    branches:
-      - dev
+  push:
+    branches: [main]
 
 jobs:
   build_and_push:
